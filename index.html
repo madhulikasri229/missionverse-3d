@@ -1,12 +1,30 @@
+<link rel="stylesheet" href="src/styles/style.css">
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MissionVerse 3D</title>
+
+    <link rel="stylesheet" href="src/styles/style.css">
+
+    <!-- Three.js library -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.170.0/build/three.module.js"
+        }
+    }
+    </script>
 </head>
+
 <body>
-    <h1>Welcome to MissionVerse 3D</h1>
+    <h1>MissionVerse 3D</h1>
     <p>Design. Launch. Explore. Learn.</p>
+
+    <div id="scene-container"></div>
+
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
